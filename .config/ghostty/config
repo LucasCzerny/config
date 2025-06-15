@@ -1,0 +1,21 @@
+# initial cwd
+working-directory = /home/lucas/Documents/Code
+
+# drip
+theme = Seafoam Pastel
+background = #19181a
+foreground = #81bdb6
+fullscreen = true
+
+# nice integration
+mouse-hide-while-typing = true
+window-padding-balance = true
+window-padding-color = extend
+auto-update = download
+
+# font
+font-family = 0xProto Nerd Font
+font-feature=-calt, -liga, -dlig
+window-inherit-font-size = false
+window-step-resize = true
+font-size = 18

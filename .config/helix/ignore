@@ -1,0 +1,13 @@
+# odin dev
+ols.json
+vendor/
+# shared/
+scripts/
+shaders/
+assets/
+models/
+
+# web dev
+static/
+public/
+images/
