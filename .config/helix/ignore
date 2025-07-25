@@ -1,11 +1,10 @@
 # odin dev
 ols.json
 vendor/
-# shared/
-scripts/
-shaders/
+shared/
 assets/
 models/
+build/
 
 # web dev
 static/

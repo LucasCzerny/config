@@ -13,14 +13,11 @@ C-e = ["increment"]
 C-x = [":buffer-close"] # used to be decrement
 C-r = ["decrement"]
 C-X = [":buffer-close-others"]
-C-n = "@/[1-9]<ret>"
+C-n = "@/[0-9]<ret>"
 C-h = "jump_view_left"
 C-l = "jump_view_right"
 C-H = "swap_view_left"
 C-L = "swap_view_right"
-"A-(" = "@f(mi("
-"A-{" = "@f{mi{"
-"A-\"" = "@f\"lmi\""
 
 [keys.select]
 X = "select_line_above"
@@ -33,14 +30,10 @@ line-number = "relative"
 mouse = false
 bufferline = "always"
 end-of-line-diagnostics = "hint"
-# gutters = ["diagnostics", "line-numbers", "spacer"]
+gutters = ["diagnostics", "line-numbers", "spacer"]
 
 [editor.inline-diagnostics]
 cursor-line = "error"
 
-[editor.auto-save]
-after-delay.enable = true
-after-delay.timeout = 1000
-
-[editor.soft-wrap]
-enable = true
+# [editor.soft-wrap]
+# enable = true
