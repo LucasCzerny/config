@@ -1,4 +1,4 @@
-theme = "kaolin-dark"
+theme = "tokyonight_moon"
 
 [keys.insert]
 C-s = ["normal_mode", "commit_undo_checkpoint", ":write"]

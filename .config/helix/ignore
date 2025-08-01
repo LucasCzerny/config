@@ -10,3 +10,7 @@ build/
 static/
 public/
 images/
+
+# python
+__pycache__
+subreddits/

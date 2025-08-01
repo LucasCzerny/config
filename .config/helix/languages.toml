@@ -1,3 +1,20 @@
+[[language]]
+name = "odin"
+auto-format = true
+scope = "source.odin"
+file-types = ["odin"]
+roots = ["ols.json", "main.odin"]
+language-servers = [ "ols" ]
+comment-token = "//"
+block-comment-tokens = { start = "/*", end = "*/" }
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "odinfmt", args = [ "-stdin" ] }
+
+[[grammar]]
+name = "odin"
+source = { git = "https://github.com/tree-sitter-grammars/tree-sitter-odin", rev = "b5f668ef8918aab13812ce73acd89fe191fb8c5e" }
+# source = { git = "https://github.com/tree-sitter-grammars/tree-sitter-odin", rev = "6c6b07e354a52f8f2a9bc776cbc262a74e74fd26" }
+
 [language-server]
 vscode-html-language-server = { command = "vscode-html-language-server", args = ["--stdio"], config = {  provideFormatter = true, html = {  format = {  unformattedContentDelimiter = "<!-- noformat -->"  }  }  } }
 

@@ -2,9 +2,7 @@
 working-directory = /home/lucas/Documents/Code
 
 # drip
-theme = Seafoam Pastel
-background = #19181a
-foreground = #81bdb6
+theme = tokyonight_moon
 fullscreen = true
 
 # nice integration
