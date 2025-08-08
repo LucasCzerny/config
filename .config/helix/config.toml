@@ -28,7 +28,7 @@ C-k = ["goto_prev_paragraph"]
 [editor]
 line-number = "relative"
 mouse = false
-bufferline = "always"
+bufferline = "never"
 end-of-line-diagnostics = "hint"
 gutters = ["diagnostics", "line-numbers", "spacer"]
 
