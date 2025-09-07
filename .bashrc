@@ -150,13 +150,12 @@ export PATH="$PATH:$HOME/.local/ols"
 export PATH="$PATH:$HOME/.local/lua-language-server/bin"
 export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:/usr/local/lib/node_modules/vscode-langservers-extracted/bin"
+export PATH="$PATH:/usr/local/cuda-12.0/bin"
 source $HOME/.local/vulkan/setup-env.sh
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 . "$HOME/.cargo/env"
-
-eval "$(zoxide init bash)"
 
 lf_scuffed_af() {
   export LF_START_PWD="$PWD"
